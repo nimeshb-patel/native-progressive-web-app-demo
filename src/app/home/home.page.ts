@@ -18,10 +18,10 @@ import { ToastService } from '../services/toast/toast.service';
 })
 export class HomePage implements OnInit {
 
-    private formElements: Array<BaseField>;
-    private formgroup: FormGroup;
-    private controlTypes = ControlTypes;
-    private colors = Colors;
+    formElements: Array<BaseField>;
+    formgroup: FormGroup;
+    controlTypes = ControlTypes;
+    colors = Colors;
 
     constructor(private formService: FormService, private toastService: ToastService, private loadingService: LoadingService) { }
 
